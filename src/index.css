@@ -9,17 +9,15 @@
 color: aliceblue;
 font-family: 'Lobster Two', cursive;
 font-size: 2rem;
-margin-left: 30px;
-
+position: static;
+margin-right: auto;
+margin-left: 1rem;
 }
 
 .navbar .bi{
 color: #fff;
 background-color: #fff;
 }
-
-
-
 
 .navbar-btn{
 position: absolute;

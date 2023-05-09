@@ -14,12 +14,17 @@ const Navbar = () => {
       };
 
     return (
+        <div>
         <nav className="navbar navbar-expand-lg navbar-light bg-dark">
+        <img src="" alt="" />
   
             <a className="navbar-brand" href="#">Movies</a>
+            
+        
             {isLoggedIn ? <p className='text-btn'>{userName}</p>: 
             <button onClick={handleClick} className='navbar-btn'>Logga in</button>}
         </nav>
+        </div>
     )
 }
 
