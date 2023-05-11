@@ -87,20 +87,50 @@ button.btn{
 }
 
 .card {
- margin: 20px;
- width: 500px;
- border: none;
+  width: 100%;
+  max-width: 500px;
+  margin: 20px auto;
+  padding: 10px;
+  border: none;
 }
 
-.card .change{
-outline: 1px solid black;
+.movie {
+  position: relative;
 }
 
-
-.card img{
-  width: 200px;
-  margin-top: 12px;
+.movie img {
+  width: 100%;
+  max-width: 300px;
+  margin: 10px auto;
   cursor: pointer;
 }
+
+.movie h3 {
+  font-size: 1.5rem;
+}
+
+.movie p {
+  font-size: 1rem;
+}
+
+.movie.change {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 768px) {
+
+  .movieList{
+    display: flex;
+    flex-direction: column;
+  }
+
+} 
+
 
 
